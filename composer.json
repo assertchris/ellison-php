@@ -1,0 +1,27 @@
+{
+    "name": "assertchris/ellison",
+    "description": "Simple library that helps identify complex sentences and poor word choices",
+    "type": "library",
+    "license": "MIT",
+    "version": "1.0.0",
+    "autoload": {
+        "psr-4": {
+            "AC\\Ellison\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Christopher Pitt",
+            "email": "me@assertchris.io"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require-dev": {
+        "pestphp/pest": "3.x-dev"
+    },
+    "config": {
+        "allow-plugins": {
+            "pestphp/pest-plugin": true
+        }
+    }
+}
