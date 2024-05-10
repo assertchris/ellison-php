@@ -3,7 +3,7 @@
     "description": "Simple library that helps identify complex sentences and poor word choices",
     "type": "library",
     "license": "MIT",
-    "version": "1.0.0",
+    "version": "1.0.2",
     "autoload": {
         "psr-4": {
             "AC\\Ellison\\": "src/"
