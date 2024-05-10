@@ -628,7 +628,7 @@ class Ellison
         return array_values(
             array_map(
                 fn(string $phrase) => [
-                    'text' => $phrase,
+                    'text' => mb_substr($sentence, stripos($sentence, $phrase), mb_strlen($phrase)),
                     'type' => 'qualified',
                 ],
                 array_filter(

@@ -91,7 +91,7 @@ test('qualified phrases are identified', function() {
         ->toHaveLength(1)
         ->and($result[0])
         ->toMatchArray([
-            'text' => 'i believe',
+            'text' => 'I believe',
             'type' => 'qualified',
         ]);
 });
